@@ -10,9 +10,9 @@ console.log(obj);
 {
     let x = 100;
     let y = 200;
-
-
-
-
+    let obj = {    // 簡化寫法，屬性和變數名稱相同
+        x,
+        y
+    };
     console.log(obj);
 }

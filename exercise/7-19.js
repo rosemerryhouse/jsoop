@@ -22,6 +22,6 @@ console.log(firstName, lastName, age, gender);
         age: 30,
         gender: "male"
     };
-
+    let {name:{firstName, lastName}, age, gender} = obj;
     console.log(firstName, lastName, age, gender);
 }

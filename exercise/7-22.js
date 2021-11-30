@@ -6,7 +6,15 @@ var c = list[2] !== undefined ? list[2] : 3;
 console.log(a, b, c);
 //es6
 {
-    var list = [7, 42];
-
+    let list = [7, 42];
+    let [a = 1, b = 2, c = 3] = list;
     console.log(a, b, c);
+}
+
+
+{
+
+    var obj = {age: 30};
+    let { name: username = 'Alan', age} = obj;
+    console.log(username, age); // "Alan", 30
 }

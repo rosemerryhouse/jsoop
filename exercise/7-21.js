@@ -7,8 +7,8 @@ function fn(obj) {
 fn({name: "John", age: 30});
 //es6
 {
-
-
-
+    function fn({name, age}) {
+        console.log(name, age);
+    }
     fn({name: "John", age: 30});
 }

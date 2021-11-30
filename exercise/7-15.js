@@ -25,8 +25,8 @@ console.log(obj);
     let obj = {
         x,
         y,
-
-
+        ["x"+x]:x,
+        ["y"+y]:y
     };
     console.log(obj);
 }
