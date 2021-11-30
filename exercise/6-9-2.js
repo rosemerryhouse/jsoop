@@ -22,7 +22,7 @@ var scoreboard = {
 };
 var mediator = {
     users: {},
-    add: function(key, obj) {
+    add: function(key, obj) { // 新增按鍵及對應的新增玩家
         this.users[obj.name] = {
             key: key,
             obj: obj

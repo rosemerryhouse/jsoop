@@ -11,9 +11,9 @@ DATA.content = "xyz";
 console.log(DATA.content);
 //es6
 {
-
-
-
+    const DATA = {
+        content: "abc"
+    };
     DATA.content = "xyz";
     console.log(DATA.content);
 }
