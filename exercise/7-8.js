@@ -7,10 +7,13 @@ function link(height, color, url) {
 }
 link(null, "Blue");
 link(undefined, "", "http://www.xyz.com");
-//es6
+
+// es6
+// 可以直接在function內設定預設值
 {
-
-
+    function link(height = 50, color = "red", url = "http://www.abc.com") {
+        console.log(height, color, url);
+    }
     link(undefined, "Blue");
     link(undefined, "", "http://www.xyz.com");
 }
